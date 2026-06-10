@@ -4,6 +4,7 @@ import path from 'path';
 import { base44Plugin } from '@base44/vite-plugin';
 
 export default defineConfig({
+  base: '/IONMUNGameDev/',
   plugins: [react(), base44Plugin()],
   resolve: {
     alias: {
